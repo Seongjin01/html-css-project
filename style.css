@@ -1,0 +1,118 @@
+
+body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+    color : white;
+}
+
+.head {
+    width: 100vw;
+    height : 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.con {
+    display : flex;
+    justify-content: flex-start;
+}
+
+.nav {
+    display: inline-block;
+    width: fit-content;
+    font-size : 20px;
+    margin-left: 30px;
+    margin-top : 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul > li {
+    line-height: 30px;
+}
+
+ul > li > a {
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    content:"";
+    position : absolute;
+    left : 50%;
+    bottom : 0;
+    width : 0;
+    height : 2px;
+    background-color: white;
+    transition : all .5s;
+}
+
+a:before {
+    content:"";
+    position : absolute;
+    right : 50%;
+    bottom : 0;
+    width : 0;
+    height : 2px;
+    background-color: white;
+    transition : all .5s;
+}
+
+a:hover:after {
+    width : 50%;
+}
+
+a:hover:before {
+    width : 50%;
+}
+
+.section {
+    margin-top : 20px;
+    margin-left : 20px;
+}
+
+.img {
+    margin-top : 20px;
+    margin-left : 20px;
+}
+
+.life {
+    margin-top: 50px;
+    margin-left : 110px;
+}
+
+.life2 {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.life3 {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.bottom {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.update {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
