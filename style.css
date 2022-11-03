@@ -1,8 +1,8 @@
 
 body {
     background-color: black;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 * {
@@ -95,26 +95,63 @@ a:hover:before {
     margin-left : 110px;
 }
 
-.life2 {
-    margin-top: 50px;
-    margin-left: 110px;
-}
-
-.life3 {
-    margin-top: 50px;
-    margin-left: 110px;
-}
-
 .bottom {
     margin-top: 20px;
-    font-size: 15px;
-    text-align: center;
-    width: 100%;
     bottom : 0;
+    width: 100vw;
+    height: 30px;
+    text-align: center;
 }
 
 .update {
     text-align: center;
     width: 100vw;
     height: 100vh;
+}
+
+.title {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #fff,
+        0 0 82px #fff,
+        0 0 92px #fff,
+        0 0 102px #fff,
+        0 0 151px #fff;
+  }
+
+.work {
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+.work:hover {
+    transform: translateY(-10px);
+}
+
+.centered {
+    position: absolute;
+    font-size: 50px;
+    font-style: italic; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    color: antiquewhite;
+    text-shadow:
+        0 0 7px #000,
+        0 0 10px #000,
+        0 0 21px #000,
+        0 0 42px #fff,
+        0 0 82px #fff,
+        0 0 92px #fff,
+        0 0 102px #fff,
+        0 0 151px #fff;
 }
