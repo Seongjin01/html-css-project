@@ -20,7 +20,7 @@ display : inline-block;
 a:hover
 ```
 
-flex를 자주 사용하여 레이아웃에 elment 배치를 좀 더 다양하게 할 수 있도록 하였습니다.
-줄 바꿈이 이루어지지 않도록 inline-block을 사용하였습니다.
-또 navigation에 직관적인 애니메이션을 위해 마우스 커서를 hovering 하였을 때 밑줄이 나타나도록 하였습니다.
+flex를 자주 사용하여 레이아웃에 elment 배치를 좀 더 다양하게 할 수 있도록 하였습니다. <br>
+줄 바꿈이 이루어지지 않도록 inline-block을 사용하였습니다. <br>
+또 navigation에 직관적인 애니메이션을 위해 마우스 커서를 hovering 하였을 때 밑줄이 나타나도록 하였습니다. <br>
 
